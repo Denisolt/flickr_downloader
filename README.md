@@ -13,6 +13,7 @@ After that, you will be asked what quality of the pictures you want. </br>
 I ran into a little problem where some of the photos were unnamed, so had to improvise. </br>
 All the pictures will be saved into a folder called 'images; </br>
 Do not worry, code will create a folder by itself. 
+![alt tag](https://raw.githubusercontent.com/Denisolt/flickr_album_downloader/master/sample.gif)</br>
 
 ## Dependancies:
 - beautifulsoup4==4.6.0
@@ -28,5 +29,22 @@ Do not worry, code will create a folder by itself.
 - six==1.10.0
 - urllib3==1.21.1
 
+## Execution:
+Download the project: </br>
+```bash
+git clone https://github.com/Denisolt/flickr_album_downloader.git
+cd flickr_album_downloader
+```
+Activate virtual environment: </br>
+```bash
+source local/bin/activate
+pip install -r requirements.txt
+```
+Run: </br>
+```bash
+python main.py
+```
+The output should be like this: </br>
+![alt tag](https://raw.githubusercontent.com/Denisolt/flickr_album_downloader/master/example.png)</br>
 ## Extra
 I added my folder of the pics by Masashi Wakui of streets of Japan at night. Check it out, it is amazing. 
