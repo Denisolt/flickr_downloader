@@ -12,7 +12,7 @@ also code will ask you for the userID of the album you want to download and the 
 After that, you will be asked what quality of the pictures you want. </br>
 I ran into a little problem where some of the photos were unnamed, so had to improvise. </br>
 All the pictures will be saved into a folder called 'images; </br>
-Do not worry, code will create a folder by itself. 
+Do not worry, code will create a folder by itself. </br>
 ![alt tag](https://raw.githubusercontent.com/Denisolt/flickr_album_downloader/master/process.gif)</br>
 
 ## Dependancies:
