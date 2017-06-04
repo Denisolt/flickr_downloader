@@ -1,11 +1,16 @@
 # flickr Album Downloader
 ## Why:
-well, I was looking for a nice wallpapers and found these amazing photos by Masashi Wakui on flickr. 
-tried downloading, but apparently flickr was not letting me. So I wrote a code to do that. 
-In order to use this you will need an API key and secret Key for Flickr, 
-also code will ask you for the userID of the album you want to download and the albums ID as well. 
+well, I was looking for a nice wallpapers and found these amazing photos by Masashi Wakui on flickr. </br>
+tried downloading, but apparently flickr was not allowing any downloads.</br>
+If I was to do it manually, then I would have to open each one of the pictures, click to download, </br>
+then click to choose the size, open inspect elements, find the link to the image, </br>
+copy, paste it to download. Annoying, isnt't it?</br>
+</br>
+So I wrote a code to do that. </br>
+In order to use this you will need an API key and secret Key for Flickr, </br>
+also code will ask you for the userID of the album you want to download and the albums ID as well. </br>
 After that, you will be asked what quality of the pictures you want. </br>
-I ran into a little problem where some of the photos were unnamed, so had to improvise. 
+I ran into a little problem where some of the photos were unnamed, so had to improvise. </br>
 All the pictures will be saved into a folder called 'images; </br>
 Do not worry, code will create a folder by itself. 
 
