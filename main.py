@@ -5,6 +5,7 @@ import re
 import urllib
 import os
 
+<<<<<<< Updated upstream
 api_key = raw_input('Enter your API-Key: ')
 api_secret = raw_input('Enter your API-Secret: ')
 name = raw_input('Enter the username of the desired users pictures: ')
@@ -20,6 +21,21 @@ if not os.path.exists('images'):
 	os.chdir('images')
 	for photo in flickr.walk_set(albumID):
 	    url = 'https://www.flickr.com/photos/'+ name+ '/' + photo.get('id') + '/sizes/'+ sizes+ '/'
+=======
+
+api_key = '78fa534193acf30e53d7c9e95dfdc567'
+api_secret = '34160d71501154cd'
+
+
+
+counter = 1
+flickr = flickrapi.FlickrAPI(api_key, api_secret)
+if not os.path.exists('pic'):
+	os.makedirs('pic')
+	os.chdir('pic')
+	for photo in flickr.walk_set('72157629212758502'):
+	    url = 'https://www.flickr.com/photos/megane_wakui/' + photo.get('id') + '/sizes/k/'
+>>>>>>> Stashed changes
 	    webpage = requests.get(url)
 	    soup = BeautifulSoup(webpage.text, 'html.parser')
 	    x = soup.findAll('img')
@@ -32,4 +48,9 @@ if not os.path.exists('images'):
 	    			testfile.retrieve(new, 'unnamed' + str(counter) + '.jpg' )
 	    		else:
 	    			testfile.retrieve(new, photo.get('title')+'.jpg')
+<<<<<<< Updated upstream
 print 'All set, all pictures were downloaded into a folder called images'
+=======
+
+print 'All set, all pictures were downloaded into a folder called pics'
+>>>>>>> Stashed changes
