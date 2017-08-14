@@ -1,4 +1,4 @@
-# flickr Album Downloader
+# flickr Downloader for albums and tags
 ## Why:
 well, I was looking for a nice wallpapers and found these amazing photos by Masashi Wakui on flickr. </br>
 tried downloading, but apparently flickr was not allowing any downloads.</br>
@@ -8,14 +8,15 @@ copy, paste it to download. Annoying, isnt't it?</br>
 </br>
 So I wrote a code to do that. </br>
 In order to use this you will need an API key and secret Key for Flickr, </br>
-also code will ask you for the userID of the album you want to download and the albums ID as well. </br>
-After that, you will be asked what quality of the pictures you want. </br>
-I ran into a little problem where some of the photos were unnamed, so had to improvise. </br>
-All the pictures will be saved into a folder called 'images; </br>
-Do not worry, code will create a folder by itself. </br>
+However I have left my API keys in there for everyone to use </br>
+You will be asked to enter wether you want to search by the 'tag' or by the 'album'</br>
+The quality is set to download the highest all the time. </br>
+All the pictures will be saved into a folder called 'images/tag or albumID'; </br>
+If folders do not exist, they will be automatically generated </br>
 ![alt tag](https://raw.githubusercontent.com/Denisolt/flickr_album_downloader/master/process.gif)</br>
 
-## Dependancies:
+
+## Dependencies:
 - beautifulsoup4==4.6.0
 - bs4==0.0.1
 - certifi==2017.4.17
@@ -45,6 +46,4 @@ Run: </br>
 python main.py
 ```
 The output should be like this: </br>
-![alt tag](https://raw.githubusercontent.com/Denisolt/flickr_album_downloader/master/example.png)</br>
-## Extra
-I added my folder of the pics by Masashi Wakui of streets of Japan at night. Check it out, it is amazing. 
+![alt tag](https://raw.githubusercontent.com/Denisolt/flickr_album_downloader/master/img.png)</br>
